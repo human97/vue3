@@ -1,17 +1,29 @@
 <template>
-    <h1>Hi! It is working!</h1>
+    <navbar/>
+    <div class="app">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
+import Navbar from '@/components/Navbar.vue'
 export default {
-    data() {
-        return{
-
-        }
-    },
+  components: { Navbar },
+    
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
 
+.app {
+    padding: 0 10px 10px 10px;
+}
 </style>
