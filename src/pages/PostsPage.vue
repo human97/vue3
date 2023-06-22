@@ -168,13 +168,7 @@ export default {
 }
 </script>
 
-<style>
-.page--wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 0 0;
-}
-
+<style lang="scss" scoped>
 .page {
     width: 30px;
     height: 30px;
@@ -183,9 +177,16 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.page:not(:last-of-type) {
-    margin: 0 10px 0 0;
+
+    &:not(:last-of-type) {
+        margin: 0 10px 0 0;
+    }
+
+    &--wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
 }
 
 .current_page {

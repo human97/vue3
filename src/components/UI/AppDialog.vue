@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .dialog {
     top: 0;
     bottom: 0;
@@ -31,14 +31,14 @@ export default {
     background: rgba(0,0,0, .5);
     position: fixed;
     display: flex;
-}
 
-.dialog--content {
-    margin: auto;
-    background: #fff;
-    border-radius: 10px;
-    min-height: 50px;
-    min-width: 300px;
-    padding: 20px;
+    &--content {
+        margin: auto;
+        background: #fff;
+        border-radius: 10px;
+        min-height: 50px;
+        min-width: 300px;
+        padding: 20px;
+    }
 }
 </style>

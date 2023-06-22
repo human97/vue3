@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,10 +26,10 @@ export default {
     height: 50px;
     background: #d0d8d3;
     padding: 0 10px;
-}
 
-.navbar--btn {
-    cursor: pointer;
+    &--btn {
+        cursor: pointer;
+    }
 }
 
 .m-r:not(:last-of-type) {

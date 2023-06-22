@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .post {
     margin: 10px 0 0 0;
     padding: 10px;
@@ -43,10 +43,10 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
-.post--btn {
-    display: flex;
+    &--btn {
+        display: flex;
+    }
 }
 
 .m-r:not(:last-of-type) {

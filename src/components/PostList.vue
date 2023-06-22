@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .post-list-item {
   display: inline-block;
   margin-right: 10px;
